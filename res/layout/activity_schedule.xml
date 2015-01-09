@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <!-- Row: Days of the Week -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:id="@+id/period"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/period"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/monday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tuesday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/wednesday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/thursday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/friday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/saturday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#474666"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sunday"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12dp" />
+    </TableRow>
+
+    <!-- Row: 0800 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#EABFBF"
+            android:text="0800"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800m"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0800sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0800su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 0900 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#C2BFEA"
+            android:text="0900"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H0900sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0900su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1000 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#EABFBF"
+            android:text="1000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1000sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1000su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1100 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#C2BFEA"
+            android:text="1100"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1100sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1100su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1200 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#EABFBF"
+            android:text="1200"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1200sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1200su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1300 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#C2BFEA"
+            android:text="1300"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1300sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1300su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1400 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#EABFBF"
+            android:text="1400"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1400sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1400su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1500 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#C2BFEA"
+            android:text="1500"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1500sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1500su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1600 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#EABFBF"
+            android:text="1600"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1600sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1600su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <!-- Row: 1700 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#C2BFEA"
+            android:text="1700"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700monday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700t"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700w"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700thursday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700th"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700friday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700saturday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700st"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/H1700sunday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="1700su"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8dp" />
+    </TableRow>
+
+</TableLayout>
